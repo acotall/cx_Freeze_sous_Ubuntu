@@ -63,3 +63,26 @@ Une fois avoir lancer la commande "$ python setup.py build", vous aurez dans vot
 Ce répertoire contient un autre sous-répertoire contenant les bibliothèques dont votre programme a besoin pour 
 s'exécuter… et votre programme lui-même.
 
+
+************
+Conclusion :
+************
+
+L'exécutable que vous trouvez dans les sous-dossiers "dist" et "build" n'ont pas besoin de Python pour s'exécuter : 
+il contient lui-même l'interpréteur Python.
+Vous pouvez donc distribuer ce programme à vos amis ou le mettre en téléchargement sur votre site, si vous le désirez.
+Une chose importante à noter, cependant : veillez à copier, en même temps que votre programme, tout ce qui se trouve
+dans le dossier "dist" ou "build". Sans quoi, votre exécutable pourrait ne pas se lancer convenablement.
+
+En résumé :
+
+    cx_Freeze est un outil permettant de créer des programmes Python standalone.
+
+    Un programme standalone signifie qu'il contient lui-même les dépendances dont il peut avoir besoin, ce qui rend sa
+    distribution plus simple.
+
+    cx_Freeze installe un script qui permet de créer nos programmes standalone très rapidement.
+
+    On peut arriver à un résultat analogue en créant un fichier appelé traditionnellement setup.py.
+
+
