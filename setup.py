@@ -1,6 +1,6 @@
 # -*-coding:Utf-8 -*
 
-"""Fichier d'installation de notre script salut.py."""
+"""Fichier d'installation de notre script programme.py."""
 
 from cx_Freeze import setup, Executable
 
