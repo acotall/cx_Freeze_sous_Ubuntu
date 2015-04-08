@@ -24,4 +24,12 @@ $ sudo apt-get install cx-freeze
 
 
 
+************************************
+Exemple d'utilisation de "cx_Freeze"
+************************************
 
+$ cxfreeze programme.py
+
+Où programme.py est le fichier contenant notre programme à distribuer.
+En executant la commande ci-dessous, si tout se passe bien, vous vous retrouvez avec un sous-dossier "dist" 
+qui contient les bibliothèques dont votre programme a besoin pour s'exécuter… et votre programme lui-même
